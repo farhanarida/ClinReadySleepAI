@@ -17,13 +17,11 @@ Key capabilities:
 
 ## Repository Structure
 ClinReadySleepAI/
-
 │
 ├── configs/
-
 │   └── deploy.yaml
-├── src/
 
+├── src/
 │   ├── api/
 │   ├── calibration/
 │   ├── export/
@@ -31,13 +29,13 @@ ClinReadySleepAI/
 │   ├── pipeline/
 │   ├── models/
 │   └── utils/
-├── artifacts/
 
+├── artifacts/
 │   ├── onnx/
 │   ├── calibration/
 │   └── preprocess/
-├── docker/
 
+├── docker/
 └── scripts/
 
 ---
