@@ -68,16 +68,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-
-## API Endpoints
-
-GET /health
-GET /metadata
-POST /infer
-POST /infer_batch
-
----
-
 ## Privacy and Governance
 
 - Only hashed subject identifiers stored in audit logs
