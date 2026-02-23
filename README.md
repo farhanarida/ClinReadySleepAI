@@ -19,32 +19,33 @@ Key capabilities:
 ClinReadySleepAI/
 
 ├── configs/
+
 │   └── deploy.yaml
 
 ├── src/
 
-│   ├── api/
+│     ├── api/
 
-│   ├── calibration/
+│     ├── calibration/
 
-│   ├── export/
+│     ├── export/
 
-│   ├── reporting/
+│     ├── reporting/
 
-│   ├── pipeline/
+│     ├── pipeline/
 
-│   ├── models/
+│     ├── models/
 
-│   └── utils/
+│     └── utils/
 
 
 ├── artifacts/
 
-│   ├── onnx/
+│     ├── onnx/
 
-│   ├── calibration/
+│     ├── calibration/
 
-│   └── preprocess/
+│     └── preprocess/
 
 
 ├── docker/
