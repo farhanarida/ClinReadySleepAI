@@ -1,0 +1,33 @@
+app:
+  name: "ClinReadySleepAI"
+  version: "clinreadysleepai-v1"
+
+paths:
+  onnx_model: "artifacts/onnx/student_int8.onnx"
+  calibration: "artifacts/calibration/calib_params.json"
+  audit_dir: "artifacts/audit"
+
+runtime:
+  intra_op_num_threads: 4
+  inter_op_num_threads: 1
+  enable_mem_pattern: true
+  enable_cpu_mem_arena: true
+
+decision:
+  high_risk_prob: 0.60
+  deferral_prob_band: 0.10
+
+report:
+  include_attention: true
+  include_reliability: true
+
+limits:
+  max_batch_items: 128
+  max_sig_channels: 16
+  max_sig_length: 180000
+  max_tab_dim: 2000
+  max_payload_bytes: 2500000
+
+rate_limit:
+  requests_per_minute: 60
+  burst: 30

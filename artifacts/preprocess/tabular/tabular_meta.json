@@ -1,0 +1,7 @@
+{
+  "feature_names": [
+    "clin_age",
+    "demo_bmi",
+    "geno_marker1"
+  ]
+}
