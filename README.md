@@ -25,23 +25,21 @@ ClinReadySleepAI/
 ├── src/
 
 │   ├── api/
-
 │   ├── calibration/
-
 │   ├── export/
-
 │   ├── reporting/
-
 │   ├── pipeline/
-
 │   ├── models/
-
 │   └── utils/
+
 ├── artifacts/
+
 │   ├── onnx/
 │   ├── calibration/
 │   └── preprocess/
+
 ├── docker/
+
 └── scripts/
 
 ---
