@@ -59,7 +59,7 @@ ClinReadySleepAI/
 
 Clone repository:
 
-git clone https://github.com/YOUR_USERNAME/ClinReadySleepAI.git
+git clone https:https://github.com/farhanarida/ClinReadySleepAI.git
 cd ClinReadySleepAI
 
 Create environment:
@@ -68,23 +68,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
----
-
-## Running the API
-
-python -m uvicorn src.api.app:app --host 0.0.0.0 --port 8000
-
-Open API docs:
-http://localhost:8000/docs
-
----
-
-## Docker Deployment
-
-docker build -f docker/Dockerfile -t clinreadysleepai:latest .
-docker run --rm -p 8000:8000 -e CLINREADY_AUDIT_SALT="change_me" clinreadysleepai:latest
-
----
 
 ## API Endpoints
 
